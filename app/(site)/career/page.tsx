@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { useLanguage } from "app/context/languageContext"; // Import the useLanguage hook
+import { useLanguage } from "app/context/LanguageContext"; // Import the useLanguage hook
 
 const CareerPage = () => {
   const [hasMounted, setHasMounted] = React.useState(false);

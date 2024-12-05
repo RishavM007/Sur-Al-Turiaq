@@ -4,7 +4,7 @@ import { useState } from "react";
 import FeaturesTabItem from "./FeaturesTabItem";
 import featuresTabData from "./featuresTabData";
 import { motion } from "framer-motion";
-import { useLanguage } from "app/context/languageContext"; // Import the language context
+import { useLanguage } from "app/context/LanguageContext"; // Import the language context
 
 const FeaturesTab = () => {
   const [currentTab, setCurrentTab] = useState("tabOne");

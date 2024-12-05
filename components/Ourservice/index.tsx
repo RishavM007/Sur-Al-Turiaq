@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import SectionHeader from "../Common/SectionHeader";
-import { useLanguage } from "app/context/languageContext"; // Assuming LanguageProvider is set up
+import { useLanguage } from "app/context/LanguageContext"; // Assuming LanguageProvider is set up
 
 const servicesData = {
   en: [

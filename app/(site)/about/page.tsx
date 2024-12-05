@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
-import { useLanguage } from "app/context/languageContext"; // Import the useLanguage hook
+import { useLanguage } from "app/context/LanguageContext"; // Import the useLanguage hook
 
 const AboutUs = () => {
   const [hasMounted, setHasMounted] = React.useState(false);

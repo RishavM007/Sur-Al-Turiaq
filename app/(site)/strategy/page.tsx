@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { useLanguage } from "app/context/languageContext";
+import { useLanguage } from "app/context/LanguageContext";
 
 const StrategyPage = () => {
   const [hasMounted, setHasMounted] = React.useState(false);

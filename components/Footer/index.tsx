@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { useLanguage } from "app/context/languageContext"; // Import the language context
+import { useLanguage } from "app/context/LanguageContext"; // Import the language context
 import Image from "next/image";
 
 const Footer = () => {

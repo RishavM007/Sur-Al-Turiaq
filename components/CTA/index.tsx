@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { useLanguage } from "app/context/languageContext"; // Importing language context
+import { useLanguage } from "app/context/LanguageContext"; // Importing language context
 
 const CTA = () => {
   const { language } = useLanguage(); // Get current language

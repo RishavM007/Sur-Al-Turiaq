@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import SectionHeader from "../Common/SectionHeader";
 import Image from "next/image";
-import { useLanguage } from "app/context/languageContext"; // Assuming LanguageProvider is set up
+import { useLanguage } from "app/context/LanguageContext"; // Assuming LanguageProvider is set up
 
 const About = () => {
   const { language } = useLanguage(); // Get the current language

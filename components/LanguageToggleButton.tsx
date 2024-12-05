@@ -1,6 +1,6 @@
 "use client";
 
-import { useLanguage } from "app/context/languageContext";
+import { useLanguage } from "app/context/LanguageContext";
 
 const LanguageToggleButton = () => {
   const { toggleLanguage, language } = useLanguage();

@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useLanguage } from "app/context/languageContext"; // Assuming LanguageProvider is set up
+import { useLanguage } from "app/context/LanguageContext"; // Assuming LanguageProvider is set up
 import SectionHeader from "../Common/SectionHeader";
 
 const featuresData = [

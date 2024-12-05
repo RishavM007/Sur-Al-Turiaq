@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode } from "react";
-import { LanguageProvider } from "app/context/languageContext";
+import { LanguageProvider } from "app/context/LanguageContext";
 import LanguageToggleButton from "@/components/LanguageToggleButton";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";

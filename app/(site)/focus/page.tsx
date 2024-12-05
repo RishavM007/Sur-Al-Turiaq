@@ -3,7 +3,7 @@
 import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useLanguage } from "app/context/languageContext"; // Import the language context
+import { useLanguage } from "app/context/LanguageContext"; // Import the language context
 
 const VerticalCards = () => {
   const { language } = useLanguage(); // Access the current language from the context
