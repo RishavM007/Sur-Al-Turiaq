@@ -1,15 +1,9 @@
+"use client";
 
 import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useLanguage } from "app/context/LanguageContext";
-import { Metadata } from "next"; 
-
-export const metadata: Metadata = {
-  title: "Focus Area - SATPCO",
-  description: "We specialize in serving government hospitals, providing them with a comprehensive range of pharmaceutical products.",
- 
-};
 
 const VerticalCards = () => {
   const { language } = useLanguage(); // Access the current language from the context
