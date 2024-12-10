@@ -4,6 +4,12 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useLanguage } from "app/context/LanguageContext";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Strategy - SATPCO",
+  description: "Our approach integrates advanced technologies, fosters collaboration, and upholds the highest standards of quality to address modern challenges and drive impactful solutions globally.",
+};
 
 const StrategyPage = () => {
   const [hasMounted, setHasMounted] = React.useState(false);

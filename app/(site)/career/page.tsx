@@ -2,7 +2,13 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { useLanguage } from "app/context/LanguageContext"; // Import the useLanguage hook
+import { useLanguage } from "app/context/LanguageContext";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Career - SATPCO",
+  description: "Join our team",
+};
 
 const CareerPage = () => {
   const [hasMounted, setHasMounted] = React.useState(false);

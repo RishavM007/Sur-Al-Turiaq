@@ -3,9 +3,9 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
-  // other metadata
+  title: "Contact Us - SATPCO",
+  description: "Please contact us for further information",
+ 
 };
 
 const SupportPage = () => {

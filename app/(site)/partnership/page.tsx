@@ -3,7 +3,14 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
-import { useLanguage } from "app/context/LanguageContext"; // Import the useLanguage hook
+import { useLanguage } from "app/context/LanguageContext";
+import { Metadata } from "next"; 
+
+export const metadata: Metadata = {
+  title: "Partnership - SATPCO",
+  description: "At the core of our business lies a commitment to building strong, lasting partnerships with industry leaders, stakeholders, and communities",
+ 
+};
 
 const PartnershipPage = () => {
   const [hasMounted, setHasMounted] = React.useState(false);
