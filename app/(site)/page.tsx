@@ -12,7 +12,7 @@ import Service from "@/components/Ourservice";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Sur Al-Tariaq Pharmaceutical Company - Transforming Healthcare",
+  title: "Sur Al-Turiaq Pharmaceutical Company - Transforming Healthcare",
   description: "Sur Al-Tariaq Pharmaceutical Company is dedicated to innovation and excellence in pharmaceuticals, delivering high-quality healthcare solutions to improve lives worldwide.",
 };
 

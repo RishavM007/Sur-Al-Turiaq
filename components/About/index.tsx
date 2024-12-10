@@ -3,12 +3,12 @@
 import { motion } from "framer-motion";
 import SectionHeader from "../Common/SectionHeader";
 import Image from "next/image";
-import { useLanguage } from "app/context/LanguageContext"; // Assuming LanguageProvider is set up
+import { useLanguage } from "app/context/LanguageContext"; 
 
 const About = () => {
-  const { language } = useLanguage(); // Get the current language
+  const { language } = useLanguage(); 
 
-  // Define content for English and Arabic
+
   const content = {
     en: {
       title: "About Us",
@@ -34,7 +34,7 @@ const About = () => {
             headerInfo={{
               title: content[language].title,
               subtitle: content[language].subtitle,
-              description: "", // You can leave it empty or add a description if needed
+              description: "", 
             }}
           />
         </div>

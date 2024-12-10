@@ -22,7 +22,7 @@ const AboutUs = () => {
     en: {
       title: "About Us",
       intro: "Welcome to our company! We are committed to providing innovative solutions and exceptional services to our customers.",
-      history: "Sur AlTuriaq was founded in 2024 with a vision to become a trusted partner for government hospitals. Our journey began with a simple yet ambitious goal: to provide reliable access to essential medication. Over the years, we have grown into a leading pharmaceutical wholesaler, driven by our unwavering commitment to quality, patient care, and ethical business practices.",
+      history: "was founded in 2024 with a vision to become a trusted partner for government hospitals. Our journey began with a simple yet ambitious goal: to provide reliable access to essential medication. Over the years, we have grown into a leading pharmaceutical wholesaler, driven by our unwavering commitment to quality, patient care, and ethical business practices.",
       missionTitle: "Our Mission",
       mission: "To be the preferred pharmaceutical wholesaler for government hospitals, delivering superior products and services",
       visionTitle: "Our Vision",
@@ -35,7 +35,7 @@ const AboutUs = () => {
         reliability: "Reliability - We ensure timely and reliable deliveries"
       }
     },
-    // Arabic translations
+
     ar: {
       title: "من نحن",
       intro: "مرحباً بكم في شركتنا! نحن ملتزمون بتقديم حلول مبتكرة وخدمات استثنائية لعملائنا.",
