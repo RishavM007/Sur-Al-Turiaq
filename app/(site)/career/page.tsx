@@ -21,7 +21,7 @@ const CareerPage = () => {
   const translations = {
     en: {
       title: "Join Our Team",
-      intro: "We’re always looking for passionate and talented people to join our team and make a real impact.",
+      intro: "We are always looking for passionate and talented people to join our team and make a real impact.",
       opportunities: "Career Opportunities",
       description: "At our company, we are driven by innovation and a commitment to excellence. Our team is made up of passionate individuals who are constantly seeking new challenges and making a real impact in their respective fields.",
       disciplines: "We offer career opportunities across a wide range of disciplines, from technology to creative design, marketing, and customer service.",
