@@ -17,7 +17,6 @@ const StrategyPage = () => {
     return null;
   }
 
-  // Translations for the page
   const translations = {
     en: {
       header: {

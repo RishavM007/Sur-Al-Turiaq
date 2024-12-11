@@ -4,7 +4,7 @@ import featuresData from "./featuresData";
 import SingleFeature from "./SingleFeature";
 import SectionHeader from "../Common/SectionHeader";
 import Link from "next/link";
-import { useLanguage } from "app/context/LanguageContext"; // Import the language context
+import { useLanguage } from "app/context/LanguageContext";
 
 const Feature = () => {
   const { language } = useLanguage(); // Access current language (either 'en' or 'ar')
