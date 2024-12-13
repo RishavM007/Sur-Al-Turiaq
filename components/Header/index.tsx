@@ -33,11 +33,10 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-7 ${
-        stickyMenu
+      className={`fixed left-0 top-0 z-99999 w-full py-7 ${stickyMenu
           ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
           : ""
-      }`}
+        }`}
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
@@ -55,18 +54,29 @@ const Header = () => {
             className="block xl:hidden"
             onClick={() => setNavigationOpen(!navigationOpen)}
           >
-            <span className="relative block h-5.5 w-5.5 cursor-pointer">
-              {/* Add Hamburger Animation */}
+            <span className="relative block h-5 w-6">
+              <span
+                className={`absolute block h-0.5 w-full bg-current transition-transform duration-300 ${navigationOpen ? "rotate-45 translate-y-2" : "-translate-y-2"
+                  }`}
+              ></span>
+              <span
+                className={`absolute block h-0.5 w-full bg-current transition-opacity duration-300 ${navigationOpen ? "opacity-0" : "opacity-100"
+                  }`}
+              ></span>
+              <span
+                className={`absolute block h-0.5 w-full bg-current transition-transform duration-300 ${navigationOpen ? "-rotate-45 -translate-y-2" : "translate-y-2"
+                  }`}
+              ></span>
             </span>
           </button>
+
         </div>
 
         {/* Nav Menu */}
         <div
-          className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
-            navigationOpen &&
+          className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${navigationOpen &&
             "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
-          }`}
+            }`}
         >
           <nav>
             <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
@@ -78,7 +88,7 @@ const Header = () => {
                         onClick={() => setDropdownToggler(!dropdownToggler)}
                         className="flex cursor-pointer items-center justify-between gap-3 hover:text-primary"
                       >
-                        {menuItem.title(language)} {/* Translate using language */}
+                        {menuItem.title(language)}
                         <span>
                           <svg
                             className="h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary"
@@ -90,9 +100,8 @@ const Header = () => {
                         </span>
                       </button>
                       <ul
-                        className={`dropdown ${
-                          dropdownToggler ? "flex" : ""
-                        }`}
+                        className={`dropdown ${dropdownToggler ? "flex" : ""
+                          }`}
                       >
                         {menuItem.submenu.map((item, subKey) => (
                           <li key={subKey} className="hover:text-primary">
